@@ -42,6 +42,10 @@ Loading an existing class (which is cached after the first load) is pretty much 
   1. more expensive in all configurations, since the miss is not cached and an exception has to be thrown
   1. more and more expensive as the number of possible sources increases
 
+## Feedback welcome!
+
+Add a comment, create an issue, ping me on [Twitter](https://twitter.com/fpavageau)...
+
 
 ------
 
