@@ -5,7 +5,7 @@ This is a micro-benchmark using [JMH](http://openjdk.java.net/projects/code-tool
 
 ## What does it do?
 
-The baseline just returns a class, not loaded by reflection. There are then 3 different configurations of classloader tested, loading either an existing class or an unknown class:
+The baseline just returns a class, not loaded by reflection. There are then 4 different configurations of classloader tested, loading either an existing class or an unknown class:
 
   1. Using the context classloader
   1. Using a Tomcat classloader without any external dependency configured
